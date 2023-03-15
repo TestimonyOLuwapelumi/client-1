@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "firstblogs",
+  "info": {
+    "singularName": "firstblog",
+    "pluralName": "firstblogs",
+    "displayName": "firstblog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstblogImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "firstblogTitle": {
+      "type": "string"
+    },
+    "firstblogDesc": {
+      "type": "string"
+    },
+    "fistblogContent": {
+      "type": "richtext"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "authorDesc": {
+      "type": "string"
+    },
+    "authorImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
